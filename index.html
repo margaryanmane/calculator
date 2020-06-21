@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+    <body>
+    <div>
+        <form action="" name="formInp">
+            <input type="text" name="calc"><br>
+            <button name="buttonC" value="C" title="ա ընչի համար" class="btnC" onclick="funC()">C</button>
+            <button name="buttonDel" value="del" title="վույ ամա՜ն" onclick="del()"><i class="fas fa-backspace"></i></button>
+            <button name="button%" value="btn%" class="btn" title="" onclick="funGr()">%</button>
+            <button name="buttonDiv" value="div" class="btn" title="" onclick="number('/')">/</button><br>
+            <button type="button" name="button7" value="7" title="" onclick="number('7')">7</button>
+            <button name="button8" value="8" title="" onclick="number('8')">8</button>
+            <button name="button9" value="9" title="" onclick="number('9')">9</button>
+            <button name="buttonMul" value="mul" class="btn btnBig" title="" onclick="number('*')">*</button><br>
+            <button name="button4" value="4" title="" onclick="number('4')">4</button>
+            <button name="button5" value="5" title="" onclick="number('5')">5</button>
+            <button name="button6" value="6" title="" onclick="number('6')">6</button>
+            <button name="buttonSub" value="sub" class="btn btnBig" title="" onclick="number('-')">-</button><br>
+            <button name="button1" value="1" title="" onclick="number('1')">1</button>
+            <button name="button2" value="2" title="" onclick="number('2')">2</button>
+            <button name="button3" value="3" title="" onclick="number('3')">3</button>
+            <button name="buttonAdd" value="add" class="btn btnBig" title="" onclick="number('+')">+</button><br>
+            <button name="but" title="Լավ կլինի))"><i class="fas fa-smile-wink"></i></button>
+            <button name="button0" value="0" title="թոբա թե" onclick="number('0')">0</button>
+            <button name="buttonPoint" value="point" class="btnBig" title="պահ,մի հավատ ա" onclick="number('.')">,</button>
+            <button name="buttonResult" value="result" class="btnRes" title="տեսա՜ր" onclick="result()">=</button>
+
+        </form>
+    </div>
+        <script src="jScript.js"></script>
+    </body>
+</html>
